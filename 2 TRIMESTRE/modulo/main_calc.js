@@ -2,6 +2,6 @@
 // modulo do Node (.cjs)
 // Exige Exports/Require
 
-const calc = require('./utils.js')
-import.danoJogador = danoJogador;
-console.log(danoJogador(5,5))
+const dano = require('./utils.js')
+//import.danoJogador = danoJogador;
+console.log(dano.danoJogador("AK-47",30))

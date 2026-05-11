@@ -1,3 +1,5 @@
+const mod_calc = require("./mod_calc")
+
 let healt = 100
 
 function danoJogador(arma, dano) {
@@ -9,4 +11,6 @@ function danoJogador(arma, dano) {
 }
 }
 
-import.danoJogador = danoJogador
+module.exports = {
+    danoJogador
+}
