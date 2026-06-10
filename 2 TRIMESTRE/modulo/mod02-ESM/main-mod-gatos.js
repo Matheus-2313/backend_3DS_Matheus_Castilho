@@ -1,11 +1,6 @@
-import {banhoPet, tosaPet, alimentacaoPet} from './mod-gatos.js';
+import * as petshop from './mod-gatos.js';
 
-let racaViraLata = 'Vira-Lata'
-
-banhoPet('Siames', 'Completo')
-
-console.log(banhoPet('Siames', 'Completo'))
-
-console.log(tosaPet('Perca', 'Nice'))
-
-console.log(alimentacaoPet('Felipi', 'Gostosa'))
+console.log(petshop.alimentacaoPet('Persa', 'peixe'));
+console.log(petshop.tosaPet('Persa', 'Boa'));
+console.log(petshop.banhoPet('Persa', 'completo'));
+// * siginifica tudo, e 'as' é "como" com sentido apelido
