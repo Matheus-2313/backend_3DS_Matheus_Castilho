@@ -1,8 +1,8 @@
 
 const fs = require('fs')
 const path = require('path')
-const frasePreferida = `Gosto de volei e Musica Popular Brasileira`
-const log = `Cuidado, vou te amassar no volei`
+const frasePreferida = `Gosto de volei e Musica Popular Brasileira\n`
+const log = `Cuidado, vou te amassar no volei\n`
 
 try {
     const arquivo = path.resolve(__dirname, 'frase.md')

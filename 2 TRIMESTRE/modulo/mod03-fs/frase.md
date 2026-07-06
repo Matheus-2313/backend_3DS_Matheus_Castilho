@@ -1,1 +1,1 @@
-Atenção, vou te amassar no volei
+Cuidado, vou te amassar no volei
