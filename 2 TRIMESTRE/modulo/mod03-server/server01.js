@@ -6,6 +6,7 @@ const porta = 8004
 const index = path.join(__dirname, 'pages/index.html')
 const sobre = path.join(__dirname, 'pages/sobre.html')
 const erro = path.join(__dirname, 'pages/404.html')
+const css = path.join(__dirname, 'public/estilo.css')
 
 const server = http.createServer((req, res)=>{
     const novaUrl = new URL(req.url, `http://${req.headers.host}`)
